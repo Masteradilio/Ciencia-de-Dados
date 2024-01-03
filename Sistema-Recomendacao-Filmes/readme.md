@@ -28,11 +28,15 @@ O sistema de recomendação implementado neste projeto é capaz de recomendar fi
 Para usar o sistema de recomendação, você precisará instalar as seguintes bibliotecas:
 
 nltk
+
 numpy
+
 pandas
+
 scikit-learn
 
 Depois de instalar as bibliotecas, você pode executar o código no arquivo Projeto_Sistema_de_Recomendação_de_Filmes.ipynb no Google Colab ou VS Code. 
+
 Carregue os arquivos dataset_elenco e dataset_filmes para o ambiente e copie o caminho na chamada do pd.read_csv usando UTF-8 como encoding.
 
 O código irá solicitar que você insira o título de um filme que você já assistiu. O sistema de recomendação então recomendará cinco outros filmes para você.
