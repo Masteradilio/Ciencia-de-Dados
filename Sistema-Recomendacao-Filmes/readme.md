@@ -48,7 +48,9 @@ Produto escalar: https://en.wikipedia.org/wiki/Dot_product: https://en.wikipedia
 
 ## Próximos passos:
 Usar mais características para representar os filmes.
+
 Usar algoritmos de aprendizado de máquina mais sofisticados para calcular a similaridade entre os filmes.
+
 Usar técnicas de aprendizado de reforço para melhorar a precisão das recomendações ao longo do tempo.
 
 # O que são Sistemas de Recomendação?
