@@ -60,13 +60,17 @@ Sistemas de recomendação são sistemas computacionais que sugerem itens para u
 Os sistemas de recomendação podem ser divididos em dois tipos principais:
 
 Filtragem colaborativa: esses sistemas usam dados de interação entre usuários e itens para identificar padrões e tendências. Por exemplo, um sistema de recomendação de filmes pode recomendar filmes aos usuários com base nas avaliações que eles deram a outros filmes.
+
 Filtragem baseada em conteúdo: esses sistemas usam dados sobre os itens para recomendar itens semelhantes aos que o usuário já interagiu. Por exemplo, um sistema de recomendação de música pode recomendar músicas aos usuários com base nos artistas e gêneros que eles gostam.
+
 Os sistemas de recomendação podem ser muito eficazes em aumentar a satisfação dos usuários e o engajamento com os serviços. Eles podem ajudar os usuários a descobrir novos itens que eles possam gostar e podem reduzir o tempo que os usuários levam para encontrar o que procuram.
 
 Aqui estão alguns exemplos de sistemas de recomendação:
 
 Amazon: o sistema de recomendação da Amazon recomenda produtos aos usuários com base em suas avaliações, histórico de compras e outros fatores.
+
 Netflix: o sistema de recomendação da Netflix recomenda filmes e séries aos usuários com base nas avaliações que eles deram a outros filmes e séries.
+
 Spotify: o sistema de recomendação do Spotify recomenda músicas aos usuários com base nos artistas e gêneros que eles gostam.
 
-Os sistemas de recomendação são uma área de pesquisa ativa. Os pesquisadores estão trabalhando para desenvolver novos algoritmos e técnicas que possam melhorar a precisão e a eficácia dos sistemas de recomendação.
+
