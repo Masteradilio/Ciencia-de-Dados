@@ -7,23 +7,21 @@ O objetivo deste projeto é construir um sistema de recomendação de filmes que
 
 ## Metodologia
 
-O sistema de recomendação é implementado usando filtragem baseada em conteúdo. Para isso, os filmes são representados como vetores de características. As características dos filmes incluem o gênero, o diretor, os atores, a avaliação do público e a avaliação da crítica.
+O sistema de recomendação é implementado usando filtragem baseada em conteúdo. Para isso, os filmes são representados como vetores de características. As características dos filmes incluem o título, gênero, o diretor, os atores, e algumas tags que se relacionam com o filme.
 
-A similaridade entre dois filmes é calculada usando o produto escalar. Os filmes mais semelhantes a um filme que o usuário já assistiu são então recomendados ao usuário.
+A similaridade entre dois filmes é calculada usando o produto escalar e distância entre vetores, mais especificamente a distância de similaridade de coseno. Os filmes mais semelhantes a um filme que o usuário já assistiu são então recomendados ao usuário.
 
 ## Dados
 
-Os dados usados neste projeto foram obtidos do site The Movie Database (TMDb). Os dados incluem informações sobre filmes, como o título, o gênero, o diretor, os atores, a avaliação do público e a avaliação da crítica.
+Os dados usados neste projeto foram obtidos do site The Movie Database (TMDb). Os dados incluem informações sobre filmes, como o título, o gênero, o diretor, os atores, a avaliação do público e a avaliação da crítica, mas uma engenharia de atributos foi realizada para selecionar as features mais relevantes para o projeto.
 
 ## Resultados
 
-O sistema de recomendação foi avaliado usando uma métrica de precisão. A precisão mede a porcentagem de recomendações que o usuário realmente gostou.
-
-O sistema de recomendação obteve uma precisão de 80%. Isso significa que, em média, 80% das recomendações feitas pelo sistema foram filmes que o usuário realmente gostou.
+O sistema de recomendação não foi avaliado com uma métrica específica, mas se mostrou muito preciso ao recomendar filmes bastante similares ou ao título ou ao gênero do filme que o usuário indica. É possível aprimorar o sistema, mas esse não foi o foco do projeto, que teve uma intenção mais didática e de experimentação.
 
 ## Conclusão
 
-O sistema de recomendação implementado neste projeto é capaz de recomendar filmes com precisão de 80%. Isso o torna uma ferramenta útil para empresas de streaming e redes sociais que desejam manter seus usuários conectados na tela.
+O sistema de recomendação implementado neste projeto é capaz de recomendar filmes com bastante precisão. Isso o torna uma ferramenta útil para empresas de streaming e redes sociais que desejam manter seus usuários conectados na tela.
 
 ## Como usar
 
