@@ -41,9 +41,12 @@ O código irá solicitar que você insira o título de um filme que você já as
 ## Referências
 
 The Movie Database (TMDb): https://developer.themoviedb.org/docs: https://developer.themoviedb.org/docs
+
 Filtragem baseada em conteúdo: https://en.wikipedia.org/wiki/Content-based_filtering: https://en.wikipedia.org/wiki/Content-based_filtering
+
 Produto escalar: https://en.wikipedia.org/wiki/Dot_product: https://en.wikipedia.org/wiki/Dot_product
-Próximos passos:
+
+## Próximos passos:
 Usar mais características para representar os filmes.
 Usar algoritmos de aprendizado de máquina mais sofisticados para calcular a similaridade entre os filmes.
 Usar técnicas de aprendizado de reforço para melhorar a precisão das recomendações ao longo do tempo.
