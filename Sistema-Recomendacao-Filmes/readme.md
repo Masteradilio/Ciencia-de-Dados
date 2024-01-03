@@ -1,31 +1,31 @@
 
-#Projeto de Sistema de Recomendação de Filmes com Vetores e Espaço Vetorial
+# Projeto de Sistema de Recomendação de Filmes com Vetores e Espaço Vetorial
 
-##Objetivo
+## Objetivo
 
 O objetivo deste projeto é construir um sistema de recomendação de filmes que possa recomendar filmes para usuários com base em seus gostos e preferências.
 
-##Metodologia
+## Metodologia
 
 O sistema de recomendação é implementado usando filtragem baseada em conteúdo. Para isso, os filmes são representados como vetores de características. As características dos filmes incluem o gênero, o diretor, os atores, a avaliação do público e a avaliação da crítica.
 
 A similaridade entre dois filmes é calculada usando o produto escalar. Os filmes mais semelhantes a um filme que o usuário já assistiu são então recomendados ao usuário.
 
-##Dados
+## Dados
 
 Os dados usados neste projeto foram obtidos do site The Movie Database (TMDb). Os dados incluem informações sobre filmes, como o título, o gênero, o diretor, os atores, a avaliação do público e a avaliação da crítica.
 
-##Resultados
+## Resultados
 
 O sistema de recomendação foi avaliado usando uma métrica de precisão. A precisão mede a porcentagem de recomendações que o usuário realmente gostou.
 
 O sistema de recomendação obteve uma precisão de 80%. Isso significa que, em média, 80% das recomendações feitas pelo sistema foram filmes que o usuário realmente gostou.
 
-##Conclusão
+## Conclusão
 
 O sistema de recomendação implementado neste projeto é capaz de recomendar filmes com precisão de 80%. Isso o torna uma ferramenta útil para empresas de streaming e redes sociais que desejam manter seus usuários conectados na tela.
 
-##Como usar
+## Como usar
 
 Para usar o sistema de recomendação, você precisará instalar as seguintes bibliotecas:
 
@@ -38,7 +38,7 @@ Depois de instalar as bibliotecas, você pode executar o código no arquivo main
 
 O código irá solicitar que você insira o título de um filme que você já assistiu. O sistema de recomendação então recomendará cinco outros filmes para você.
 
-##Referências
+## Referências
 
 The Movie Database (TMDb): https://developer.themoviedb.org/docs: https://developer.themoviedb.org/docs
 Filtragem baseada em conteúdo: https://en.wikipedia.org/wiki/Content-based_filtering: https://en.wikipedia.org/wiki/Content-based_filtering
@@ -48,7 +48,7 @@ Usar mais características para representar os filmes.
 Usar algoritmos de aprendizado de máquina mais sofisticados para calcular a similaridade entre os filmes.
 Usar técnicas de aprendizado de reforço para melhorar a precisão das recomendações ao longo do tempo.
 
-#O que são Sistemas de Recomendação?
+# O que são Sistemas de Recomendação?
 
 Sistemas de recomendação são sistemas computacionais que sugerem itens para usuários com base em seus interesses e histórico de interações. Eles são usados em uma variedade de contextos, incluindo e-commerce, streaming de mídia, redes sociais e serviços de música.
 
